@@ -1,6 +1,6 @@
 <?php
 
-namespace Sensio\Bundle\BuzzBundle\DependencyInjection;
+namespace Kruczkowski\Bundle\BuzzBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -8,11 +8,11 @@ use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
 /**
- * SensioBuzzExtension.
+ * BuzzExtension.
  *
  * @author Marc Weistroff <marc.weistroff@sensio.com>
  */
-class SensioBuzzExtension extends Extension
+class BuzzExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container)
     {

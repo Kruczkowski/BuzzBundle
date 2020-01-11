@@ -1,14 +1,14 @@
 <?php
 
-namespace Sensio\Bundle\BuzzBundle;
+namespace Kruczkowski\Bundle\BuzzBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
- * SensioBuzzBundle.
+ * BuzzBundle.
  *
  * @author Marc Weistroff <marc.weistroff@sensio.com>
  */
-class SensioBuzzBundle extends Bundle
+class BuzzBundle extends Bundle
 {
 }
